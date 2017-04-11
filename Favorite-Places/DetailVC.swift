@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailVC.swift
 //  Favorite-Places
 //
 //  Created by Mehmet Eroğlu on 10.04.2017.
@@ -8,23 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailVC: UIViewController {
 
-    @IBOutlet weak var aboutBtn: UIButton!
-    @IBOutlet weak var photosBtn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        aboutBtn.layer.cornerRadius = 3.0
-        photosBtn.layer.cornerRadius = 3.0
-        
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func backPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
-
+    
 }
-

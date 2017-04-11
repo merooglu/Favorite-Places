@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B55679A1E9CD4D300E140D2 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5567991E9CD4D300E140D2 /* PhotosVC.swift */; };
 		1B753EA21E9BB7F600CADBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753EA11E9BB7F600CADBE5 /* AppDelegate.swift */; };
 		1B753EA41E9BB7F600CADBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753EA31E9BB7F600CADBE5 /* ViewController.swift */; };
 		1B753EA71E9BB7F600CADBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B753EA51E9BB7F600CADBE5 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		1B753EAC1E9BB7F600CADBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B753EAA1E9BB7F600CADBE5 /* LaunchScreen.storyboard */; };
 		1B753EB71E9BB7F600CADBE5 /* Favorite_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753EB61E9BB7F600CADBE5 /* Favorite_PlacesTests.swift */; };
 		1B753EC21E9BB7F600CADBE5 /* Favorite_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753EC11E9BB7F600CADBE5 /* Favorite_PlacesUITests.swift */; };
+		1B753ED01E9BC61700CADBE5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B753ECF1E9BC61700CADBE5 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5567991E9CD4D300E140D2 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		1B753E9E1E9BB7F600CADBE5 /* Favorite-Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite-Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B753EA11E9BB7F600CADBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B753EA31E9BB7F600CADBE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		1B753EBD1E9BB7F600CADBE5 /* Favorite-PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite-PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B753EC11E9BB7F600CADBE5 /* Favorite_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_PlacesUITests.swift; sourceTree = "<group>"; };
 		1B753EC31E9BB7F600CADBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B753ECF1E9BC61700CADBE5 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1B753EA81E9BB7F600CADBE5 /* Assets.xcassets */,
 				1B753EAA1E9BB7F600CADBE5 /* LaunchScreen.storyboard */,
 				1B753EAD1E9BB7F600CADBE5 /* Info.plist */,
+				1B753ECF1E9BC61700CADBE5 /* DetailVC.swift */,
+				1B5567991E9CD4D300E140D2 /* PhotosVC.swift */,
 			);
 			path = "Favorite-Places";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				1B753EA41E9BB7F600CADBE5 /* ViewController.swift in Sources */,
 				1B753EA21E9BB7F600CADBE5 /* AppDelegate.swift in Sources */,
+				1B753ED01E9BC61700CADBE5 /* DetailVC.swift in Sources */,
+				1B55679A1E9CD4D300E140D2 /* PhotosVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				1B753EC81E9BB7F600CADBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B753EC91E9BB7F600CADBE5 /* Build configuration list for PBXNativeTarget "Favorite-PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				1B753ECB1E9BB7F600CADBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B753ECC1E9BB7F600CADBE5 /* Build configuration list for PBXNativeTarget "Favorite-PlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				1B753ECE1E9BB7F600CADBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

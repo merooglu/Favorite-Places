@@ -1,30 +1,29 @@
 //
-//  ViewController.swift
+//  PhotosVC.swift
 //  Favorite-Places
 //
-//  Created by Mehmet Eroğlu on 10.04.2017.
+//  Created by Mehmet Eroğlu on 11.04.2017.
 //  Copyright © 2017 Mehmet Eroğlu. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class PhotosVC: UIViewController {
 
-    @IBOutlet weak var aboutBtn: UIButton!
-    @IBOutlet weak var photosBtn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        aboutBtn.layer.cornerRadius = 3.0
-        photosBtn.layer.cornerRadius = 3.0
-        
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func backBtnPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+ 
+    
 }
-
